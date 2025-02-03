@@ -28,7 +28,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Vite Github Pages Deployer
-        uses: skywarth/vite-github-pages-deployer@master
+        uses: sondalex/vite-github-pages-deployer@add_working_directory
         id: deploy_to_pages
         with:
           package_manager: yarn
